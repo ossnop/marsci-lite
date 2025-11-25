@@ -109,5 +109,5 @@ cd backend
 
 ## 📄 License
 
-(C) by **Annop Sripuna**  
+(C) 2025 **Annop Sripuna**  
 All rights reserved.

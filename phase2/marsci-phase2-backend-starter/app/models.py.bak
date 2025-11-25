@@ -1,0 +1,7 @@
+@"
+from pydantic import BaseModel
+
+class KPIInput(BaseModel):
+    hello: str
+"@ | Set-Content -Path .\app\models.py -Encoding UTF8
+Write-Host "Wrote .\app\models.py"

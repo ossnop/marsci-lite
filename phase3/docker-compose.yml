@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - RATE_LIMIT_PER_MIN=60
+      - CORS_ORIGINS=http://localhost:3000
+      - AUDIT_DB_PATH=/data/audit.db
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped

@@ -1,5 +1,5 @@
 # MarSci Lite — Backend (Phase2 + Phase3)
-(C) by Annop Sripuna
+(C) 2025 Annop Sripuna
 
 FastAPI backend for KPI anomaly detection, scoring engine, and audit logging.  
 Designed for **local use**, lightweight, and ready for frontend integration.

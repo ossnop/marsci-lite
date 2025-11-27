@@ -1,0 +1,19 @@
+RUNBOOK — Frontend integration
+
+Local serve:
+cd frontend
+python -m http.server 3000
+open http://localhost:3000
+
+Backend integration:
+- Default fetch posts to relative path '/analyze'.
+- If backend is at http://localhost:8000, this works when serving frontend via same origin or using a proxy.
+- If CORS needed: backend must add CORSMiddleware allow_origin for the frontend origin.
+
+Test payload example (curl):
+curl -X POST http://localhost:8000/analyze -H "Content-Type: application/json" -d '{
+  "start_date":"2025-11-20",
+  "end_date":"2025-11-24",
+  "industry":"eCommerce",
+  "kpis":[ {"kpi":"CTR (%)","values":[0.02,0.03,0.025,0.026,0.021]} ]
+}' 

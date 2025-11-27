@@ -1,0 +1,102 @@
+[
+  {
+    "id": "spa",
+    "name_en": "Spa & Wellness",
+    "name_th": "สปา / นวดเพื่อสุขภาพ"
+  },
+  {
+    "id": "retail",
+    "name_en": "Retail",
+    "name_th": "ค้าปลีก"
+  },
+  {
+    "id": "ecom",
+    "name_en": "E-commerce",
+    "name_th": "อีคอมเมิร์ซ"
+  },
+  {
+    "id": "hotel",
+    "name_en": "Hotel",
+    "name_th": "โรงแรม / ที่พัก"
+  },
+  {
+    "id": "food",
+    "name_en": "Food & Beverage",
+    "name_th": "อาหารและเครื่องดื่ม"
+  },
+  {
+    "id": "fitness",
+    "name_en": "Fitness / Gym",
+    "name_th": "ฟิตเนส / ยิม"
+  },
+  {
+    "id": "clinic",
+    "name_en": "Medical / Clinic",
+    "name_th": "คลินิก / การแพทย์"
+  },
+  {
+    "id": "beauty",
+    "name_en": "Beauty & Aesthetic",
+    "name_th": "เสริมสวย / ความงาม"
+  },
+  {
+    "id": "edu",
+    "name_en": "Education",
+    "name_th": "การศึกษา"
+  },
+  {
+    "id": "finance",
+    "name_en": "Finance / Banking",
+    "name_th": "การเงิน / ธนาคาร"
+  },
+  {
+    "id": "auto",
+    "name_en": "Automotive",
+    "name_th": "ยานยนต์"
+  },
+  {
+    "id": "realest",
+    "name_en": "Real Estate",
+    "name_th": "อสังหาริมทรัพย์"
+  },
+  {
+    "id": "telecom",
+    "name_en": "Telecom",
+    "name_th": "โทรคมนาคม"
+  },
+  {
+    "id": "travel",
+    "name_en": "Travel & Tour",
+    "name_th": "ท่องเที่ยว / ทัวร์"
+  },
+  {
+    "id": "logistic",
+    "name_en": "Logistics / Delivery",
+    "name_th": "ขนส่ง / เดลิเวอรี่"
+  },
+  {
+    "id": "gaming",
+    "name_en": "Gaming",
+    "name_th": "เกมมิ่ง"
+  },
+  {
+    "id": "fashion",
+    "name_en": "Fashion",
+    "name_th": "แฟชั่น"
+  },
+  {
+    "id": "pet",
+    "name_en": "Pet / Animal Care",
+    "name_th": "สัตว์เลี้ยง"
+  },
+  {
+    "id": "service",
+    "name_en": "Service Business",
+    "name_th": "ธุรกิจบริการ"
+  },
+  {
+    "id": "other",
+    "name_en": "Other",
+    "name_th": "อื่น ๆ"
+  }
+]

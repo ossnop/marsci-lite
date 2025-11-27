@@ -1,0 +1,143 @@
+﻿/************************************************************
+ * MarSci Lite — FRONTEND CONTROLLER (CLEAN VERSION)
+ * รองรับการวางค่าจาก Excel / Sheets ทุกแบบ
+ ************************************************************/
+
+/* normalizeKPIInput: รองรับ comma, tab, newline, space, NBSP */
+function normalizeKPIInput(rawText) {
+  try {
+    if (!rawText || typeof rawText !== "string") return [];
+
+    var txt = rawText.replace(/\r\n/g, "\n").replace(/\u00A0/g, " ");
+
+    // แทนที่ separator ทั้งหมดด้วย comma
+    txt = txt.replace(/\t+/g, ",")
+             .replace(/\n+/g, ",")
+             .replace(/ +/g, ",")
+             .replace(/,+/g, ",")
+             .trim();
+
+    if (txt === "") return [];
+
+    var parts = txt.split(",")
+                   .map(s => s.trim())
+                   .filter(s => s.length > 0);
+
+    var nums = parts.map(p => {
+      var cleaned = p.replace(/[^\d\.\-eE,]/g, "");
+      if (cleaned.indexOf('.') === -1 && (cleaned.match(/,/g) || []).length === 1) {
+        cleaned = cleaned.replace(',', '.');
+      }
+      var n = parseFloat(cleaned);
+      return isNaN(n) ? null : n;
+    }).filter(v => v !== null);
+
+    return nums;
+
+  } catch (e) {
+    console.error("normalizeKPIInput ERROR:", e);
+    return [];
+  }
+}
+
+/************************************************************
+ *  UI Elements
+ ************************************************************/
+const industryEl = document.querySelector('#industry');
+const startDate = document.querySelector('#start-date');
+const endDate = document.querySelector('#end-date');
+const analyzeBtn = document.querySelector('#analyze');
+const resultBox = document.querySelector('#result-box');
+
+/************************************************************
+ *  Read KPI selections + daily values → build payload
+ ************************************************************/
+function getPayload() {
+  const sd = startDate ? startDate.value : null;
+  const ed = endDate ? endDate.value : null;
+
+  // คำนวณจำนวนวัน
+  let days = 0;
+  if (sd && ed) {
+    const s = new Date(sd);
+    const e = new Date(ed);
+    days = Math.floor((e - s) / (1000 * 60 * 60 * 24)) + 1;
+  }
+
+  // เก็บ KPI ที่เลือก
+  const kpiButtons = document.querySelectorAll(".kpi-btn.active");
+  const selectedKPIs = [...kpiButtons].map(btn => btn.dataset.kpi);
+
+  // อ่าน textarea ของแต่ละ KPI
+  const dailyValueAreas = document.querySelectorAll(".kpi-values");
+  let kpis = [];
+
+  dailyValueAreas.forEach((area, idx) => {
+    const raw = area.value || "";
+    const cleaned = normalizeKPIInput(raw);
+
+    kpis.push({
+      name: selectedKPIs[idx] || ("KPI_" + (idx+1)),
+      daily_values: cleaned
+    });
+  });
+
+  return {
+    industry: (industryEl && industryEl.value) ? industryEl.value : null,
+    start_date: sd || null,
+    end_date: ed || null,
+    days: days,
+    kpis: kpis
+  };
+}
+
+/************************************************************
+ *  API Request → Show results
+ ************************************************************/
+async function sendAnalyze(payload) {
+  try {
+    const res = await fetch("http://localhost:8000/analyze", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      resultBox.innerHTML = <div class='error'>Error: </div>;
+      return;
+    }
+
+    // แสดงผลแบบ simple (รองรับ response shape ของ backend)
+    const r = data;
+    // if results array exists, show first
+    const displayed = r.results && r.results.length ? r.results[0] : r;
+    resultBox.innerHTML = 
+      <div class="card">
+        <h3></h3>
+        <p>Severity: <strong></strong></p>
+        <p>Benchmark:  – </p>
+        <p></p>
+        <p class="small"></p>
+      </div>
+    ;
+
+  } catch (e) {
+    console.error(e);
+    resultBox.innerHTML = <div class='error'>Connection failed</div>;
+  }
+}
+
+/************************************************************
+ *  ANALYZE BUTTON
+ ************************************************************/
+if (analyzeBtn) {
+  analyzeBtn.addEventListener("click", async () => {
+    const payload = getPayload();
+    console.log("PAYLOAD:", payload);
+    await sendAnalyze(payload);
+  });
+} else {
+  console.warn("analyze button not found (#analyze).");
+}

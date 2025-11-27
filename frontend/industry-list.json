@@ -1,0 +1,22 @@
+﻿[
+  {"id":"ecommerce","en":"E-commerce","th":"อีคอมเมิร์ซ"},
+  {"id":"retail","en":"Retail","th":"ค้าปลีก"},
+  {"id":"fnb","en":"F&B","th":"อาหารและเครื่องดื่ม"},
+  {"id":"beauty","en":"Beauty","th":"ความงาม"},
+  {"id":"fashion","en":"Fashion","th":"แฟชั่น"},
+  {"id":"travel","en":"Travel","th":"ท่องเที่ยว"},
+  {"id":"hospitality","en":"Hospitality","th":"โรงแรม/ที่พัก"},
+  {"id":"health","en":"Health/Wellness","th":"สุขภาพ/ความเป็นอยู่"},
+  {"id":"education","en":"Education","th":"การศึกษา"},
+  {"id":"entertainment","en":"Entertainment","th":"บันเทิง"},
+  {"id":"services","en":"Professional Services","th":"บริการวิชาชีพ"},
+  {"id":"automotive","en":"Automotive","th":"ยานยนต์"},
+  {"id":"tech","en":"Tech / SaaS","th":"เทคโนโลยี / SaaS"},
+  {"id":"finance","en":"Financial Services","th":"การเงิน/ธนาคาร"},
+  {"id":"realestate","en":"Real Estate","th":"อสังหาริมทรัพย์"},
+  {"id":"logistics","en":"Logistics","th":"โลจิสติกส์"},
+  {"id":"gaming","en":"Gaming","th":"เกม"},
+  {"id":"consumer","en":"Consumer Goods","th":"สินค้าอุปโภคบริโภค"},
+  {"id":"ngo","en":"Non-profit / NGO","th":"องค์กรไม่แสวงหาผลกำไร"},
+  {"id":"other","en":"Other / Misc","th":"อื่น ๆ"}
+]

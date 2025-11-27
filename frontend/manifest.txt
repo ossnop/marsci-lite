@@ -1,0 +1,7 @@
+marsci_lite_ready_release.zip contents:
+frontend/index.html
+frontend/styles.css
+frontend/app.js
+logo.png
+README.txt
+manifest.txt

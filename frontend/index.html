@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MarSci Lite — KPI Stability & Anomaly Check</title>
+
+  <style>
+    /* ===== BRAND TOKENS (MarSci Lite) ===== */
+    :root {
+      --navy: #0b2a4a;
+      --navy-dark: #062038;
+      --gold: #caa34b;
+      --grey: #6b7280;
+      --bg: #f7f9fc;
+      --white: #ffffff;
+      --radius: 14px;
+      --radius-sm: 10px;
+      --shadow: 0 8px 24px rgba(11, 42, 74, 0.08);
+      --maxw: 920px;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--navy);
+      transition: 0.25s;
+    }
+
+    /* ===== LANGUAGE SYSTEM ===== */
+    .lang-th { display: none; }
+    .lang-en { display: none; }
+    body.lang-th .lang-th { display: block; }
+    body.lang-en .lang-en { display: block; }
+
+    /* ===== LAYOUT ===== */
+    .container {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 28px 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0;
+    }
+
+    .logo-box {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .logo {
+      width: 54px;
+      height: 54px;
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, var(--navy), var(--navy-dark));
+      color: var(--white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      font-size: 19px;
+    }
+
+    nav button {
+      padding: 8px 16px;
+      background: var(--white);
+      border: 1px solid #d6dce4;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      font-size: 13px;
+      color: var(--navy);
+    }
+
+    /* Hero section */
+    .hero {
+      margin-top: 20px;
+      background: var(--white);
+      padding: 36px 30px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin: 0 0 8px;
+      color: var(--navy-dark);
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: var(--grey);
+      margin-bottom: 24px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(90deg, var(--navy), var(--navy-dark));
+      color: var(--white);
+      padding: 14px 24px;
+      border-radius: var(--radius-sm);
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+      margin-right: 12px;
+    }
+
+    .btn-secondary {
+      background: var(--white);
+      border: 1px solid #d6dce4;
+      padding: 14px 24px;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      color: var(--navy);
+      cursor: pointer;
+    }
+
+    /* Features */
+    .feature-box {
+      background: var(--white);
+      padding: 28px 28px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      margin-top: 30px;
+    }
+
+    .feature-box h2 {
+      margin-top: 0;
+      margin-bottom: 14px;
+      font-size: 20px;
+      color: var(--navy-dark);
+    }
+
+    ul.feature-list {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    ul.feature-list li {
+      margin-bottom: 8px;
+      color: var(--navy);
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 12px;
+      color: var(--grey);
+    }
+
+    .legal-note {
+      margin-top: 10px;
+      font-size: 12px;
+      color: var(--grey);
+      line-height: 1.4;
+    }
+  </style>
+
+  <script>
+    function setLang(lang){
+      document.body.className = lang;
+      localStorage.setItem("marsci_lang", lang);
+    }
+    window.onload = function(){
+      const saved = localStorage.getItem("marsci_lang") || "lang-th";
+      document.body.className = saved;
+    }
+  </script>
+</head>
+
+<body class="lang-th">
+  <div class="container">
+    <header>
+      <div class="logo-box">
+        <div class="logo">MS</div>
+        <div>
+          <div style="font-weight:700;">MarSci Lite</div>
+          <div style="font-size:13px;color:var(--grey);">KPI Stability & Anomaly Detection Tool</div>
+        </div>
+      </div>
+
+      <nav>
+        <button onclick="setLang('lang-th')">TH</button>
+        <button onclick="setLang('lang-en')">EN</button>
+      </nav>
+    </header>
+
+    <!-- ===================================================== -->
+    <!-- ===================== THAI PAGE ====================== -->
+    <!-- ===================================================== -->
+
+    <div class="lang-th">
+      <div class="hero">
+        <h1>ใช้งานง่าย รู้ผลไวใน 5 ขั้นตอน</h1>
+        <div class="subtitle">
+          เลือกอุตสาหกรรม → เลือกช่วงเวลา → เลือก KPI → วางค่า → รับผลทันที
+        </div>
+        <button class="btn-secondary">เกี่ยวกับเครื่องมือ</button>
+        <button class="btn-primary">เริ่มใช้งานฟรี</button>
+      </div>
+
+      <div class="feature-box">
+        <h2>HIGHLIGHT FEATURES</h2>
+        <ul class="feature-list">
+          <li>ตรวจความเสถียรของ KPI ได้ทันที</li>
+          <li>จับสัญญาณความผิดปกติแบบอัตโนมัติ</li>
+          <li>ผลลัพธ์เป็นข้อความสรุป + ตัวเลข 2 ค่า (v1, v2)</li>
+          <li>รองรับข้อมูลจาก Excel / Google Sheets</li>
+          <li>สูตรคำนวณไม่เปิดเผย — แอดมินเท่านั้นที่เข้าถึงข้อมูลดิบ</li>
+        </ul>
+
+        <div class="legal-note">
+          เครื่องมือนี้เป็นเครื่องมือวินิจฉัยเบื้องต้น ไม่ใช่คำปรึกษาทางธุรกิจเชิงลึกหรือการันตีผลลัพธ์
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================================================== -->
+    <!-- ===================== ENGLISH PAGE =================== -->
+    <!-- ===================================================== -->
+
+    <div class="lang-en">
+      <div class="hero">
+        <h1>Easy & Fast — 5-Step Workflow</h1>
+        <div class="subtitle">
+          Choose industry → Pick date range → Select KPI(s) → Paste values → Get results instantly
+        </div>
+        <button class="btn-secondary">About this tool</button>
+        <button class="btn-primary">Start for free</button>
+      </div>
+
+      <div class="feature-box">
+        <h2>HIGHLIGHT FEATURES</h2>
+        <ul class="feature-list">
+          <li>Instant view of KPI stability</li>
+          <li>Automatic anomaly detection</li>
+          <li>Readable summary + two numeric outputs</li>
+          <li>Paste data from Excel / Sheets</li>
+          <li>Calculation logic remains private — admin-only export</li>
+        </ul>
+
+        <div class="legal-note">
+          This is a preliminary diagnostic tool, not a form of consultancy or guarantee of outcomes.
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      © 2025 MarSci Lite — Public-Safe Version  
+    </div>
+
+  </div>
+</body>
+</html>

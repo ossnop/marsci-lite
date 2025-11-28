@@ -1,0 +1,1 @@
+2025-04-21T08:01:32+07:00 ci=6f3719a7-0b98-4510-8e5a-1cb0ecae6f77 error 600 in Portal: {"message":"Uncaught ReferenceError: ll is not defined","url":"file:///C:/Program%20Files%20(x86)/Western%20Digital/Discovery/Current/resources/app.asar/dist-ui/app.js","line":336,"column":39741,"errorInfo":{},"window":"app"}

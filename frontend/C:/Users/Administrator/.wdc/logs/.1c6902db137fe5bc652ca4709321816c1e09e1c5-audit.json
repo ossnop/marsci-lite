@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Administrator\\.wdc\\logs\\.1c6902db137fe5bc652ca4709321816c1e09e1c5-audit.json",
+    "files": [
+        {
+            "date": 1764275957807,
+            "name": "C:\\Users\\Administrator\\.wdc\\logs\\kamino.log.2025-11-Fr_03_",
+            "hash": "a5da4b5a4cbad30a76d4e7b30fcd6772"
+        }
+    ]
+}

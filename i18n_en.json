@@ -1,1 +1,9 @@
-{}
+{
+  "title": "MarSci Lite — Benchmark & Anomaly Check",
+  "actions": {
+    "start": "Start",
+    "about": "About",
+    "add_more": "Check more KPI",
+    "details": "Details"
+  }
+}

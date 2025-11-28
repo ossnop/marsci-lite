@@ -1,1 +1,1 @@
-readme
+MarSci Lite Frontend B - Open index.html to preview (Thai).

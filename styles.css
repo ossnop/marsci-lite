@@ -1,1 +1,35 @@
-body{}
+:root{
+  --navy:#0b2a4a; --muted:#6b7280; --card:#fff; --bg:#f7f9fc;
+  --accent:#caa34b; --radius:12px;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, Arial, sans-serif;margin:0;background:var(--bg);color:var(--navy);}
+.ms-header{padding:20px;background:linear-gradient(90deg,rgba(11,42,74,0.03),transparent);}
+.ms-header .brand h1{margin:0;font-size:18px;font-weight:800}
+.container{max-width:1100px;margin:20px auto;padding:0 16px}
+.hero{background:var(--card);padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.04)}
+.hero-bullets{margin:0 0 8px 0;padding-left:18px;color:var(--muted)}
+.steps{margin-top:12px}
+.tool{display:flex;gap:16px;margin-top:16px}
+.form-left{flex:1;background:var(--card);padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.03)}
+.form-right{width:48%;min-width:320px}
+label{display:block;margin-bottom:10px;font-size:14px;color:var(--muted)}
+input,select,textarea{width:100%;padding:8px;margin-top:6px;border:1px solid #e6e9ef;border-radius:8px;background:#fff}
+.actions-row{margin-top:10px;display:flex;gap:8px}
+.btn{padding:8px 12px;border-radius:8px;border:1px solid #ddd;background:#fff;cursor:pointer}
+.btn.primary{padding:8px 12px;border-radius:8px;border:0;background:var(--navy);color:#fff}
+.disclaimer{font-size:12px;color:var(--muted);margin-top:10px}
+.result-card{background:var(--card);padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.04)}
+.result-header{display:flex;justify-content:space-between;align-items:center}
+.kpi-pair{display:flex;gap:12px;margin-top:12px}
+.kpi-left{flex:1;border-right:1px solid #eee;padding-right:10px;text-align:center}
+.kpi-right{flex:1;padding-left:10px}
+.kpi-name{font-weight:800;font-size:16px}
+.range{font-size:20px;margin-top:6px;font-weight:900}
+.badge{display:inline-block;padding:6px 10px;border-radius:8px;margin-top:8px;font-weight:700}
+.badge-stable{background:#eaf6ee;color:#0a6f3b}
+.badge-slight{background:#fff3d9;color:#9a5a00}
+.badge-high{background:#ffe4e4;color:#b40000}
+.reco{background:#f6f8fa;padding:8px;border-radius:8px;margin-top:8px;font-size:13px;color:var(--muted)}
+.small{font-size:12px;color:var(--muted);margin-top:6px}
+@media (max-width:900px){ .tool{flex-direction:column}.form-right{width:100%} }

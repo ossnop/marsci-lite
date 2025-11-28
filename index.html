@@ -1,1 +1,64 @@
-<html><body>OK</body></html>
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>MarSci Lite — Benchmark & Anomaly Check</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="ms-header">
+  <div class="brand">
+    <h1>MarSci Lite — เครื่องมือตรวจวัด “ค่ากลาง” และ “ค่าผิดปกติ” สำหรับตัวชี้วัดทางการตลาด (KPI)</h1>
+  </div>
+</header>
+<main class="container">
+  <section class="hero">
+    <ul class="hero-bullets">
+      <li>ใช้งานง่าย ได้ผลเร็ว — 4 ขั้นตอนตรวจวัด “ค่ากลาง”</li>
+      <li>ให้สัญญาณเตือนแม่นยำผ่านค่า “ค่าผิดปกติ”</li>
+      <li>ได้ผลน่าเชื่อถือ จากสถิติมาตรฐาน</li>
+      <li>ใช้งานฟรี ปลอดภัย ไม่เก็บข้อมูลส่วนบุคคล</li>
+    </ul>
+    <div class="cta-row">
+      <button id="startBtn" class="btn primary">เริ่มตรวจวัด</button>
+    </div>
+  </section>
+  <section class="steps">
+    <h2>การทำงานแบบย่อ — 4 ขั้นตอน</h2>
+    <ol>
+      <li>STEP 1 — เลือกประเภทธุรกิจ</li>
+      <li>STEP 2 — เลือกช่วงวันที่ต้องการตรวจวัด</li>
+      <li>STEP 3 — เลือกตัวชี้วัดทางการตลาด (KPI) (สูงสุด 3 ตัว)</li>
+      <li>STEP 4 — วางข้อมูลรายวัน (1 ค่า/บรรทัด)</li>
+    </ol>
+  </section>
+  <section id="tool" class="tool">
+    <div class="form-left">
+      <label>เลือกประเภทธุรกิจ
+        <select id="industry"></select>
+      </label>
+      <label>ช่วงวันที่
+        <input id="date-from" placeholder="YYYY-MM-DD" />
+        <input id="date-to" placeholder="YYYY-MM-DD" />
+      </label>
+      <label>เลือก KPI (สูงสุด 3 ตัว)
+        <div id="kpi-selects"></div>
+      </label>
+      <label id="values-label">วางข้อมูลรายวัน (1 ค่า / 1 บรรทัด)
+        <textarea id="values" rows="8" placeholder="เช่น 1.23&#10;1.45&#10;1.12"></textarea>
+      </label>
+      <div class="actions-row">
+        <button id="run" class="btn primary">คำนวณผล</button>
+        <button id="clear" class="btn">ล้าง</button>
+      </div>
+      <div class="disclaimer">เครื่องมือนี้ให้คำอธิบายเชิงสรุป ผลลัพธ์คำนวณจากข้อมูลที่คุณป้อนเท่านั้น ไม่มีการส่งข้อมูลไปยังเซิร์ฟเวอร์ภายนอก</div>
+    </div>
+    <div class="form-right">
+      <div id="result-area"></div>
+    </div>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

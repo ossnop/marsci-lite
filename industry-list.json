@@ -1,23 +1,33 @@
 [
   {
-    "id": "spa",
-    "name_en": "Spa & Wellness",
-    "name_th": "สปา / นวดเพื่อสุขภาพ"
+    "id": "accommodation",
+    "name_en": "Accommodation",
+    "name_th": "ที่พัก"
   },
   {
-    "id": "retail",
-    "name_en": "Retail",
-    "name_th": "ค้าปลีก"
+    "id": "beauty",
+    "name_en": "Beauty & Personal Care",
+    "name_th": "บิวตี้/การดูแลส่วนบุคคล"
   },
   {
-    "id": "ecom",
+    "id": "ecommerce",
     "name_en": "E-commerce",
     "name_th": "อีคอมเมิร์ซ"
   },
   {
-    "id": "hotel",
-    "name_en": "Hotel",
-    "name_th": "โรงแรม / ที่พัก"
+    "id": "education",
+    "name_en": "Education",
+    "name_th": "การศึกษา"
+  },
+  {
+    "id": "entertainment",
+    "name_en": "Entertainment",
+    "name_th": "บันเทิง"
+  },
+  {
+    "id": "finance",
+    "name_en": "Finance",
+    "name_th": "การเงิน/ประกัน"
   },
   {
     "id": "food",
@@ -25,39 +35,54 @@
     "name_th": "อาหารและเครื่องดื่ม"
   },
   {
-    "id": "fitness",
-    "name_en": "Fitness / Gym",
-    "name_th": "ฟิตเนส / ยิม"
+    "id": "health",
+    "name_en": "Health & Wellness",
+    "name_th": "สุขภาพ/สวัสดิการ"
   },
   {
-    "id": "clinic",
-    "name_en": "Medical / Clinic",
-    "name_th": "คลินิก / การแพทย์"
+    "id": "hospitality",
+    "name_en": "Hospitality",
+    "name_th": "การบริการ/โฮสพิทาลิตี้"
   },
   {
-    "id": "beauty",
-    "name_en": "Beauty & Aesthetic",
-    "name_th": "เสริมสวย / ความงาม"
+    "id": "marketing",
+    "name_en": "Marketing Services",
+    "name_th": "บริการการตลาด"
   },
   {
-    "id": "edu",
-    "name_en": "Education",
-    "name_th": "การศึกษา"
+    "id": "product",
+    "name_en": "Product Retail",
+    "name_th": "ค้าปลีกสินค้า"
   },
   {
-    "id": "finance",
-    "name_en": "Finance / Banking",
-    "name_th": "การเงิน / ธนาคาร"
-  },
-  {
-    "id": "auto",
-    "name_en": "Automotive",
-    "name_th": "ยานยนต์"
-  },
-  {
-    "id": "realest",
+    "id": "realestate",
     "name_en": "Real Estate",
     "name_th": "อสังหาริมทรัพย์"
+  },
+  {
+    "id": "restaurant",
+    "name_en": "Restaurant",
+    "name_th": "ร้านอาหาร"
+  },
+  {
+    "id": "retail",
+    "name_en": "Retail",
+    "name_th": "ค้าปลีก"
+  },
+  {
+    "id": "saas",
+    "name_en": "SaaS / Software",
+    "name_th": "ซอฟต์แวร์/ซาอัส"
+  },
+  {
+    "id": "services",
+    "name_en": "Professional Services",
+    "name_th": "บริการวิชาชีพ"
+  },
+  {
+    "id": "spa",
+    "name_en": "Spa & Wellness",
+    "name_th": "สปา/เวลเนส"
   },
   {
     "id": "telecom",
@@ -66,33 +91,8 @@
   },
   {
     "id": "travel",
-    "name_en": "Travel & Tour",
-    "name_th": "ท่องเที่ยว / ทัวร์"
-  },
-  {
-    "id": "logistic",
-    "name_en": "Logistics / Delivery",
-    "name_th": "ขนส่ง / เดลิเวอรี่"
-  },
-  {
-    "id": "gaming",
-    "name_en": "Gaming",
-    "name_th": "เกมมิ่ง"
-  },
-  {
-    "id": "fashion",
-    "name_en": "Fashion",
-    "name_th": "แฟชั่น"
-  },
-  {
-    "id": "pet",
-    "name_en": "Pet / Animal Care",
-    "name_th": "สัตว์เลี้ยง"
-  },
-  {
-    "id": "service",
-    "name_en": "Service Business",
-    "name_th": "ธุรกิจบริการ"
+    "name_en": "Travel & Tours",
+    "name_th": "ท่องเที่ยว/ทัวร์"
   },
   {
     "id": "other",

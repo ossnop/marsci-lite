@@ -1,3 +1,0 @@
-MarSci Lite Frontend v1
-Files: index.html, styles.css, app.js, industry-list.json, kpi-list.json, i18n_th.json, i18n_en.json, runbook_frontend.txt
-No backend included.

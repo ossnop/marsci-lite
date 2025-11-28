@@ -1,137 +1,94 @@
-/* Frontend logic (demo) */
-const INDUSTRIES_URL = 'industry-list.json';
-const KPI_DEFS = [
-  {id:'cpm', label:'CPM'},
-  {id:'vtr', label:'VTR (%)'},
-  {id:'cpv', label:'CPV'},
-  {id:'er', label:'ER (%)'},
-  {id:'cpe', label:'CPE'},
-  {id:'ctr', label:'CTR (%)'},
-  {id:'cpc', label:'CPC'},
-  {id:'cvr', label:'CVR (%)'},
-  {id:'cpa', label:'CPA'}
-];
+// Minimal frontend analyzer (no backend)
+// Thresholds for sd% to level mapping (as agreed): Slightly: 7-12%, Mid: 13-18%, High: 19-24%, VeryHigh: >=25%
+// We'll compute sd% = (stddev / mean) * 100
+(function(){
+  const industryList = [
+    {"id":"spa","name_th":"สปา / นวดเพื่อสุขภาพ","name_en":"Spa & Wellness"},
+    {"id":"retail","name_th":"ค้าปลีก","name_en":"Retail"},
+    {"id":"ecom","name_th":"อีคอมเมิร์ซ","name_en":"E-commerce"},
+    {"id":"hotel","name_th":"โรงแรม/ที่พัก","name_en":"Hotel / Accommodation"}
+    // expand in industry-list.json if needed
+  ];
 
-async function loadIndustries(){
-  try{
-    const r = await fetch(INDUSTRIES_URL);
-    const j = await r.json();
-    const sel = document.getElementById('industry');
-    sel.innerHTML = '';
-    j.sort((a,b)=> (a.name_en||'').localeCompare(b.name_en)).forEach(it=>{
-      const opt = document.createElement('option');
-      opt.value = it.id;
-      opt.textContent = it.name_en + ' / ' + it.name_th;
-      sel.appendChild(opt);
-    });
-  }catch(e){
-    console.warn('No industry list', e);
-  }
-}
+  const kpis = ["CPM","VTR","CPV","ER","CPE","CTR","CPC","CVR","CPA"];
 
-function buildKPISelects(){
-  const container = document.getElementById('kpi-selects');
-  container.innerHTML = '';
-  for(let i=0;i<3;i++){
-    const sel = document.createElement('select');
-    sel.className='kpi-select';
-    sel.dataset.idx = i;
-    const empty = document.createElement('option'); empty.value=''; empty.textContent='-- เลือก KPI --'; sel.appendChild(empty);
-    KPI_DEFS.forEach(k=>{
-      const o = document.createElement('option');
-      o.value = k.id; o.textContent = k.label;
-      sel.appendChild(o);
-    });
-    container.appendChild(sel);
-  }
-}
+  function qsel(s){return document.querySelector(s)}
+  function qall(s){return Array.from(document.querySelectorAll(s))}
 
-function parseValues(text){
-  if(!text) return [];
-  const parts = text.split(/[\r\n,]+/).map(s=>s.trim()).filter(Boolean);
-  const nums = parts.map(s=> Number(s.replace(/%/g,''))).filter(n=> !isNaN(n));
-  return nums;
-}
-
-function mean(arr){ if(!arr.length) return null; return arr.reduce((a,b)=>a+b,0)/arr.length; }
-function median(arr){ if(!arr.length) return null; const s=[...arr].sort((a,b)=>a-b); const m=Math.floor(s.length/2); return s.length%2? s[m] : (s[m-1]+s[m])/2; }
-function sd(arr){ if(!arr.length) return null; const m=mean(arr); const v=arr.reduce((s,x)=>s+Math.pow(x-m,2),0)/arr.length; return Math.sqrt(v); }
-function sdPercent(sdVal, meanVal){ if(meanVal === 0 || meanVal === null) return sdVal*100; return Math.abs(sdVal / meanVal) * 100; }
-
-function anomalyLevelFromSdPercent(p){
-  if(p < 7) return {label:'Stable', cls:'badge-stable'};
-  if(p < 13) return {label:'Slightly', cls:'badge-slight'};
-  if(p < 19) return {label:'Moderate', cls:'badge-slight'};
-  if(p < 25) return {label:'High', cls:'badge-high'};
-  return {label:'Severe', cls:'badge-high'};
-}
-
-function formatPercent(v){
-  if (v === null || v === undefined) return 'n/a';
-  return v.toFixed(2);
-}
-
-function renderResultForKPI(kpiLabel, arr){
-  const container = document.createElement('div');
-  container.className = 'result-card';
-  const n = arr.length;
-  const m = mean(arr);
-  const med = median(arr);
-  const s = sd(arr);
-  const sdP = sdPercent(s, m);
-
-  const lower = med - s;
-  const upper = med + s;
-
-  const anomaly = anomalyLevelFromSdPercent(sdP);
-
-  container.innerHTML = `
-    <div class="result-header"><div class="kpi-name">${kpiLabel}</div><div class="small">N=${n} · sd%=${sdP.toFixed(2)}%</div></div>
-    <div class="kpi-pair">
-      <div class="kpi-left">
-        <div class="kpi-name">ค่ากลาง (Benchmark)</div>
-        <div class="range">${formatPercent(lower)} ⁓ ${formatPercent(upper)}</div>
-        <div class="small">(คำนวณจาก median ± 1·sd)</div>
-      </div>
-      <div class="kpi-right">
-        <div class="kpi-name">ค่าผิดปกติ (Anomaly)</div>
-        <div class="${anomaly.cls}">${anomaly.label}</div>
-        <div class="reco"><strong>คำแนะนำ:</strong> หากสถานะไม่ Stable ให้ตรวจ KPI อื่นที่เกี่ยวข้อง</div>
-        <div class="small">(${sdP.toFixed(2)}% · N=${n})</div>
-        <div style="margin-top:8px">
-          <button class="btn" onclick="addMore()">ตรวจ KPI เพิ่ม</button>
-          <button class="btn" onclick="showDetails('${kpiLabel.replace(/'/g,'')}')">ดูรายละเอียด</button>
-        </div>
-      </div>
-    </div>
-  `;
-  return container;
-}
-
-function addMore(){ alert('กดเพื่อตรวจ KPI เพิ่ม — จะเปิดช่องเลือก KPI ใหม่'); }
-function showDetails(kpi){ alert('รายละเอียดสำหรับ ' + kpi + '\\n(ฟีเจอร์รายละเอียดยังเป็นเวอร์ชันตัวอย่าง)'); }
-
-document.getElementById('startBtn')?.addEventListener('click', ()=>{ document.getElementById('values')?.focus(); });
-
-document.getElementById('run')?.addEventListener('click', ()=>{
-  const selects = Array.from(document.querySelectorAll('.kpi-select')).map(s=>s.value).filter(Boolean);
-  if(selects.length === 0) { alert('กรุณาเลือก KPI อย่างน้อย 1 ตัว'); return; }
-  const vals = parseValues(document.getElementById('values').value);
-  if(vals.length < 3) { alert('ข้อมูลน้อยเกินไป — กรุณาใส่อย่างน้อย 3 ค่าเพื่อผลที่ไม่ผันผวนมาก'); return; }
-  const resultsArea = document.getElementById('result-area');
-  resultsArea.innerHTML = '';
-  selects.forEach(id => {
-    const def = KPI_DEFS.find(k=>k.id===id) || {label:id.toUpperCase()};
-    const card = renderResultForKPI(def.label, vals);
-    resultsArea.appendChild(card);
+  // populate selects
+  const industry = qsel("#industry");
+  industryList.forEach(i=>{
+    const opt = document.createElement('option');
+    opt.value = i.id; opt.textContent = i.name_th + " / " + i.name_en;
+    industry.appendChild(opt);
   });
-});
 
-document.getElementById('clear')?.addEventListener('click', ()=>{
-  document.getElementById('values').value='';
-  document.getElementById('result-area').innerHTML='';
-  Array.from(document.querySelectorAll('.kpi-select')).forEach(s=>s.value='');
-});
+  qall(".kpi-select").forEach(s=>{
+    kpis.forEach(k=>{
+      const o = document.createElement('option'); o.value = k; o.textContent = k; s.appendChild(o);
+    });
+  });
 
-loadIndustries();
-buildKPISelects();
+  function parseValues(text){
+    if(!text) return [];
+    // accept comma or newline separated
+    const items = text.split(/\r?\n|,/).map(t=>t.trim()).filter(Boolean);
+    const nums = items.map(x=>{ const n = parseFloat(x.replace(/,/g,'')); return isNaN(n)?null:n });
+    return nums.filter(n=>n!==null);
+  }
+
+  function mean(arr){ return arr.reduce((a,b)=>a+b,0)/arr.length }
+  function stddev(arr,m){
+    const mm = typeof m === 'number' ? m : mean(arr);
+    const v = arr.reduce((s,x)=>s+Math.pow(x-mm,2),0) / arr.length;
+    return Math.sqrt(v);
+  }
+
+  function determineAnomaly(sdPercent){
+    // thresholds based on agreed bands
+    // Slightly: 7–12% ; Mid: 13–18% ; High: 19–24% ; VeryHigh: >=25%
+    if(sdPercent < 7) return {label:"Stable", color:"green"};
+    if(sdPercent <= 12) return {label:"Slightly Volatile", color:"#e6a600"};
+    if(sdPercent <= 18) return {label:"Moderate Anomaly", color:"#ff7a00"};
+    if(sdPercent <= 24) return {label:"High Anomaly", color:"#ff3b30"};
+    return {label:"Very High Anomaly", color:"#b00020"};
+  }
+
+  qsel("#runBtn").addEventListener('click', ()=>{
+    // pick first non-empty KPI
+    const k = qall(".kpi-select").map(s=>s.value).filter(Boolean)[0];
+    if(!k){ alert("เลือก KPI 1 ตัวอย่างน้อย"); return; }
+    const vals = parseValues(qsel("#dailyValues").value);
+    if(vals.length < 5){ alert("ข้อมูลน้อยเกินไปสำหรับการคำนวณ (แนะนำ >=5 วัน)"); return; }
+    // compute
+    const m = mean(vals); const sd = stddev(vals,m);
+    const sdPercent = m===0?0: Math.abs(sd/m)*100;
+    // baseline (benchmark) simple: lower = mean - sd, upper = mean + sd (but constrained)
+    const lower = Math.max(0, m - sd);
+    const upper = m + sd;
+    const anomaly = determineAnomaly(sdPercent);
+
+    // render result
+    document.querySelector("#result").classList.remove('hide');
+    qsel("#rKpi").textContent = k;
+    qsel("#benchRange").textContent = (lower.toFixed(4)) + "  ⁓  " + (upper.toFixed(4));
+    qsel("#benchMeta").textContent = "(mean: " + m.toFixed(4) + " · sd: " + sd.toFixed(4) + " · N=" + vals.length + ")";
+    qsel("#benchRec").textContent = "แนะนำ: ใช้ช่วงนี้เป็นกรอบอ้างอิงสำหรับการตรวจสอบต่อไป";
+
+    qsel("#anomStatus").textContent = anomaly.label;
+    qsel("#anomStatus").style.color = anomaly.color;
+    qsel("#anomMeta").textContent = "sd%: " + sdPercent.toFixed(1) + " · N=" + vals.length;
+    qsel("#anomRec").textContent = anomaly.label === 'Stable' ? "ค่าคงที่ดี ยังไม่พบสัญญาณผิดปกติ" : "แนะนำตรวจ KPI อื่นๆ เพิ่มเติมเพื่อยืนยันสัญญาณ";
+    window.scrollTo({top: document.querySelector("#result").offsetTop - 20, behavior:'smooth'});
+  });
+
+  qsel("#clearBtn").addEventListener('click', ()=>{
+    qsel("#dailyValues").value=''; qall(".kpi-select").forEach(s=>s.selectedIndex=0);
+    qsel("#result").classList.add('hide');
+  });
+
+  qsel("#checkMore").addEventListener('click', ()=>{
+    window.scrollTo({top: document.querySelector("#analyzeForm").offsetTop - 20, behavior:'smooth'});
+  });
+
+})();

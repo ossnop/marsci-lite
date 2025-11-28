@@ -1,68 +1,8 @@
 [
   {
-    "id": "accommodation",
-    "name_en": "Accommodation",
-    "name_th": "ที่พัก"
-  },
-  {
-    "id": "beauty",
-    "name_en": "Beauty & Personal Care",
-    "name_th": "บิวตี้/การดูแลส่วนบุคคล"
-  },
-  {
-    "id": "ecommerce",
-    "name_en": "E-commerce",
-    "name_th": "อีคอมเมิร์ซ"
-  },
-  {
-    "id": "education",
-    "name_en": "Education",
-    "name_th": "การศึกษา"
-  },
-  {
-    "id": "entertainment",
-    "name_en": "Entertainment",
-    "name_th": "บันเทิง"
-  },
-  {
-    "id": "finance",
-    "name_en": "Finance",
-    "name_th": "การเงิน/ประกัน"
-  },
-  {
-    "id": "food",
-    "name_en": "Food & Beverage",
-    "name_th": "อาหารและเครื่องดื่ม"
-  },
-  {
-    "id": "health",
-    "name_en": "Health & Wellness",
-    "name_th": "สุขภาพ/สวัสดิการ"
-  },
-  {
-    "id": "hospitality",
-    "name_en": "Hospitality",
-    "name_th": "การบริการ/โฮสพิทาลิตี้"
-  },
-  {
-    "id": "marketing",
-    "name_en": "Marketing Services",
-    "name_th": "บริการการตลาด"
-  },
-  {
-    "id": "product",
-    "name_en": "Product Retail",
-    "name_th": "ค้าปลีกสินค้า"
-  },
-  {
-    "id": "realestate",
-    "name_en": "Real Estate",
-    "name_th": "อสังหาริมทรัพย์"
-  },
-  {
-    "id": "restaurant",
-    "name_en": "Restaurant",
-    "name_th": "ร้านอาหาร"
+    "id": "spa",
+    "name_en": "Spa & Wellness",
+    "name_th": "สปา / นวดเพื่อสุขภาพ"
   },
   {
     "id": "retail",
@@ -70,33 +10,13 @@
     "name_th": "ค้าปลีก"
   },
   {
-    "id": "saas",
-    "name_en": "SaaS / Software",
-    "name_th": "ซอฟต์แวร์/ซาอัส"
+    "id": "ecom",
+    "name_en": "E-commerce",
+    "name_th": "อีคอมเมิร์ซ"
   },
   {
-    "id": "services",
-    "name_en": "Professional Services",
-    "name_th": "บริการวิชาชีพ"
-  },
-  {
-    "id": "spa",
-    "name_en": "Spa & Wellness",
-    "name_th": "สปา/เวลเนส"
-  },
-  {
-    "id": "telecom",
-    "name_en": "Telecom",
-    "name_th": "โทรคมนาคม"
-  },
-  {
-    "id": "travel",
-    "name_en": "Travel & Tours",
-    "name_th": "ท่องเที่ยว/ทัวร์"
-  },
-  {
-    "id": "other",
-    "name_en": "Other",
-    "name_th": "อื่น ๆ"
+    "id": "hotel",
+    "name_en": "Hotel / Accommodation",
+    "name_th": "โรงแรม/ที่พัก"
   }
 ]

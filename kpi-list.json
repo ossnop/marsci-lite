@@ -1,38 +1,11 @@
 [
-  {
-    "id": "cpm",
-    "label": "CPM"
-  },
-  {
-    "id": "vtr",
-    "label": "VTR (%)"
-  },
-  {
-    "id": "cpv",
-    "label": "CPV"
-  },
-  {
-    "id": "er",
-    "label": "ER (%)"
-  },
-  {
-    "id": "cpe",
-    "label": "CPE"
-  },
-  {
-    "id": "ctr",
-    "label": "CTR (%)"
-  },
-  {
-    "id": "cpc",
-    "label": "CPC"
-  },
-  {
-    "id": "cvr",
-    "label": "CVR (%)"
-  },
-  {
-    "id": "cpa",
-    "label": "CPA"
-  }
+  "CPM",
+  "VTR",
+  "CPV",
+  "ER",
+  "CPE",
+  "CTR",
+  "CPC",
+  "CVR",
+  "CPA"
 ]

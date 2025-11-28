@@ -1,1 +1,8 @@
-runbook
+RUNBOOK (frontend)
+- Purpose: Allow user to input daily KPI values and compute a simple benchmark range and anomaly severity as per agreed thresholds.
+- How to deploy: copy files to repo root or to 'frontend/' and set GitHub Pages to serve from that folder.
+- Customization points:
+  * app.js: thresholds and bands (function determineAnomaly)
+  * styles.css: colors and spacing (CI)
+  * index.html: text content (Thai/EN)
+- Notes: This is a lite version. Keep backend code separate in archive branch.

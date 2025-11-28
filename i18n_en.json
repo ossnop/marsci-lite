@@ -1,9 +1,4 @@
 {
-  "title": "MarSci Lite — Benchmark & Anomaly Check",
-  "actions": {
-    "start": "Start",
-    "about": "About",
-    "add_more": "Check more KPI",
-    "details": "Details"
-  }
+  "title": "Benchmark & Anomaly Checker for Marketing KPI",
+  "start": "Start analysis"
 }

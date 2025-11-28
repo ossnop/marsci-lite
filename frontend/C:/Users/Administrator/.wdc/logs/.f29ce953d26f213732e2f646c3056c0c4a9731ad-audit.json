@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Administrator\\.wdc\\logs\\.f29ce953d26f213732e2f646c3056c0c4a9731ad-audit.json",
+    "files": [
+        {
+            "date": 1764274590934,
+            "name": "C:\\Users\\Administrator\\.wdc\\logs\\all.log.2025-11-Fr_03_",
+            "hash": "1e7f3c85233e9522838c66060f73ae16"
+        }
+    ]
+}

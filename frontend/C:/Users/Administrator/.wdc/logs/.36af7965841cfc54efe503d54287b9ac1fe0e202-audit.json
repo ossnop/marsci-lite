@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Administrator\\.wdc\\logs\\.36af7965841cfc54efe503d54287b9ac1fe0e202-audit.json",
+    "files": [
+        {
+            "date": 1764275957806,
+            "name": "C:\\Users\\Administrator\\.wdc\\logs\\rclone-full-debug.log.2025-11-Fr_03_",
+            "hash": "988440342771168c313e5e9f90932c21"
+        }
+    ]
+}

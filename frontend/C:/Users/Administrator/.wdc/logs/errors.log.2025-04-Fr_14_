@@ -1,0 +1,3 @@
+2025-04-18T14:39:01+07:00 ci=6f3719a7-0b98-4510-8e5a-1cb0ecae6f77 warn Portal: icon not set: Failed to load image from path 'C:\Program Files (x86)\Western Digital\Discovery\Current\resources\app.asar\products\wd\resources\icons\win\no-notifications\1.ico'
+2025-04-18T14:52:35+07:00 ci=6f3719a7-0b98-4510-8e5a-1cb0ecae6f77 warn Portal: icon not set: Failed to load image from path 'C:\Program Files (x86)\Western Digital\Discovery\Current\resources\app.asar\products\wd\resources\icons\win\no-notifications\1.ico'
+2025-04-25T14:14:33+07:00 ci=6f3719a7-0b98-4510-8e5a-1cb0ecae6f77 error APP_CATALOG_SERVICE: Not valid delete request to App Catalog {"appId":"com.wdc.branded.paragon","version":"11.3.72","discoveryVersion":"5.1.618","osFamily":"WINDOWS_x64"}

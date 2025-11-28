@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Administrator\\.wdc\\logs\\.ddf6ee20c70c9d17448409c90d840e773f12cabc-audit.json",
+    "files": [
+        {
+            "date": 1764275957805,
+            "name": "C:\\Users\\Administrator\\.wdc\\logs\\localytics.log.2025-11-Fr_03_",
+            "hash": "dd805de3392c3e7f9007fc684c4aedfe"
+        }
+    ]
+}

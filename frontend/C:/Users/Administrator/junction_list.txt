@@ -1,0 +1,632 @@
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is D24D-D028
+
+ Directory of C:\Users\Administrator
+
+16/01/2025  10:31    <JUNCTION>     Cookies [C:\Users\Administrator\AppData\Local\Microsoft\Windows\INetCookies]
+27/02/2025  11:47    <DIR>          iCloudDrive
+16/01/2025  10:31    <JUNCTION>     Local Settings [C:\Users\Administrator\AppData\Local]
+16/01/2025  10:31    <JUNCTION>     My Documents [C:\Users\Administrator\Documents]
+16/01/2025  10:31    <JUNCTION>     NetHood [C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Network Shortcuts]
+27/02/2025  13:11    <DIR>          OneDrive
+16/01/2025  10:31    <JUNCTION>     PrintHood [C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Printer Shortcuts]
+16/01/2025  10:31    <JUNCTION>     Recent [C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Recent]
+16/01/2025  10:31    <JUNCTION>     SendTo [C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\SendTo]
+16/01/2025  10:31    <JUNCTION>     Start Menu [C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu]
+16/01/2025  10:31    <JUNCTION>     Templates [C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Templates]
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local
+
+16/01/2025  10:31    <JUNCTION>     History [C:\Users\Administrator\AppData\Local\Microsoft\Windows\History]
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\Windows\INetCache
+
+16/01/2025  10:31    <JUNCTION>     Content.IE5 [C:\Users\Administrator\AppData\Local\Microsoft\Windows\INetCache\IE]
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\Windows\INetCache\Low
+
+16/01/2025  11:20    <JUNCTION>     Content.IE5 [C:\Users\Administrator\AppData\Local\Microsoft\Windows\INetCache\Low\IE]
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps
+
+16/01/2025  19:43                 0 ApplePhotoStreams-AppX.exe
+16/01/2025  19:43                 0 APSDaemon-AppX.exe
+16/01/2025  10:49                 0 bash.exe
+14/02/2025  09:02                 0 chatgpt.exe
+02/02/2025  14:29                 0 DevHome.EnvironmentVariablesApp.exe
+02/02/2025  14:29                 0 DevHome.HostsFileEditorApp.exe
+02/02/2025  14:29                 0 DevHome.RegistryPreviewApp.exe
+16/01/2025  19:43                 0 eReporter-AppX.exe
+19/02/2025  23:29                 0 GameBarElevatedFT_Alias.exe
+16/01/2025  10:50                 0 GetHelp.exe
+16/01/2025  19:43                 0 iCloudChrome.exe
+16/01/2025  19:43                 0 iCloudCKKS-AppX.exe
+16/01/2025  19:43                 0 iCloudDrive-AppX.exe
+16/01/2025  19:43                 0 iCloudFirefox.exe
+16/01/2025  19:43                 0 iCloudHome-AppX.exe
+16/01/2025  19:43                 0 iCloudPasswords-AppX.exe
+16/01/2025  19:43                 0 iCloudPasswordsExtensionHelper.exe
+16/01/2025  19:43                 0 iCloudPhotos-AppX.exe
+16/01/2025  19:43                 0 iCloudPhotoViewer-AppX.exe
+16/01/2025  19:43                 0 iCloudPrefs-AppX.exe
+16/01/2025  19:43                 0 iCloudServices-AppX.exe
+16/01/2025  10:50                 0 lenovoutility.exe
+20/02/2025  00:35                 0 MediaPlayer.exe
+16/01/2025  10:31                 0 MicrosoftWindows.DesktopStickerEditorCentennial.exe
+16/01/2025  10:48                 0 ms-teams.exe
+16/01/2025  10:48                 0 ms-teamsupdate.exe
+16/01/2025  10:48                 0 ms-teams_autostarter.exe
+12/02/2025  09:55                 0 notepad.exe
+11/02/2025  15:25                 0 olk.exe
+08/02/2025  00:32                 0 PAD.BrowserNativeMessageHost.exe
+08/02/2025  00:32                 0 PAD.ChildSession.Service.Host.exe
+22/02/2025  14:50                 0 python.exe
+22/02/2025  14:50                 0 python3.exe
+21/02/2025  10:43                 0 SnippingTool.exe
+24/02/2025  01:49                 0 Spotify.exe
+22/02/2025  14:50                 0 WindowsPackageManagerServer.exe
+22/02/2025  14:50                 0 winget.exe
+16/01/2025  10:49                 0 wsl.exe
+16/01/2025  10:49                 0 wslconfig.exe
+06/02/2025  14:25                 0 wt.exe
+19/02/2025  23:30                 0 XboxPcAppAdminServer.exe
+19/02/2025  23:30                 0 XboxPcAppCE.exe
+              42 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\AppleInc.iCloud_nzyj5cx40ttqa
+
+16/01/2025  19:43                 0 ApplePhotoStreams-AppX.exe
+16/01/2025  19:43                 0 APSDaemon-AppX.exe
+16/01/2025  19:43                 0 eReporter-AppX.exe
+16/01/2025  19:43                 0 iCloudChrome.exe
+16/01/2025  19:43                 0 iCloudCKKS-AppX.exe
+16/01/2025  19:43                 0 iCloudDrive-AppX.exe
+16/01/2025  19:43                 0 iCloudFirefox.exe
+16/01/2025  19:43                 0 iCloudHome-AppX.exe
+16/01/2025  19:43                 0 iCloudPasswords-AppX.exe
+16/01/2025  19:43                 0 iCloudPasswordsExtensionHelper.exe
+16/01/2025  19:43                 0 iCloudPhotos-AppX.exe
+16/01/2025  19:43                 0 iCloudPhotoViewer-AppX.exe
+16/01/2025  19:43                 0 iCloudPrefs-AppX.exe
+16/01/2025  19:43                 0 iCloudServices-AppX.exe
+              14 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\E0469640.LenovoUtility_5grkq8ppsgwt4
+
+16/01/2025  10:50                 0 lenovoutility.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
+
+22/02/2025  14:50                 0 python.exe
+22/02/2025  14:50                 0 python3.exe
+22/02/2025  14:50                 0 WindowsPackageManagerServer.exe
+22/02/2025  14:50                 0 winget.exe
+               4 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\Microsoft.GamingApp_8wekyb3d8bbwe
+
+19/02/2025  23:30                 0 XboxPcAppAdminServer.exe
+19/02/2025  23:30                 0 XboxPcAppCE.exe
+               2 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\Microsoft.GetHelp_8wekyb3d8bbwe
+
+16/01/2025  10:50                 0 GetHelp.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\Microsoft.OutlookForWindows_8wekyb3d8bbwe
+
+11/02/2025  15:25                 0 olk.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe
+
+08/02/2025  00:32                 0 PAD.BrowserNativeMessageHost.exe
+08/02/2025  00:32                 0 PAD.ChildSession.Service.Host.exe
+               2 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\Microsoft.ScreenSketch_8wekyb3d8bbwe
+
+21/02/2025  10:43                 0 SnippingTool.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\Microsoft.Windows.DevHome_8wekyb3d8bbwe
+
+02/02/2025  14:29                 0 DevHome.EnvironmentVariablesApp.exe
+02/02/2025  14:29                 0 DevHome.HostsFileEditorApp.exe
+02/02/2025  14:29                 0 DevHome.RegistryPreviewApp.exe
+               3 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\Microsoft.WindowsNotepad_8wekyb3d8bbwe
+
+12/02/2025  09:55                 0 notepad.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\Microsoft.WindowsTerminal_8wekyb3d8bbwe
+
+06/02/2025  14:25                 0 wt.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe
+
+19/02/2025  23:29                 0 GameBarElevatedFT_Alias.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\Microsoft.ZuneMusic_8wekyb3d8bbwe
+
+20/02/2025  00:35                 0 MediaPlayer.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe
+
+16/01/2025  10:49                 0 bash.exe
+16/01/2025  10:49                 0 wsl.exe
+16/01/2025  10:49                 0 wslconfig.exe
+               3 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy
+
+16/01/2025  10:31                 0 MicrosoftWindows.DesktopStickerEditorCentennial.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\MSTeams_8wekyb3d8bbwe
+
+16/01/2025  10:48                 0 ms-teams.exe
+16/01/2025  10:48                 0 ms-teamsupdate.exe
+16/01/2025  10:48                 0 ms-teams_autostarter.exe
+               3 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\OpenAI.ChatGPT-Desktop_2p2nqsd0c76g0
+
+14/02/2025  09:02                 0 chatgpt.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\SpotifyAB.SpotifyMusic_zpdnekdrzrea0
+
+24/02/2025  01:49                 0 Spotify.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Local\Microsoft\WinGet\Links
+
+19/01/2025  04:06    <SYMLINK>      fnm.exe [C:\Users\Administrator\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe\fnm.exe]
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\AppData\Roaming\fnm\aliases
+
+19/01/2025  04:09    <JUNCTION>     default [\??\C:\Users\Administrator\AppData\Roaming\fnm\node-versions\v22.13.0\installation]
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Documents
+
+16/01/2025  10:31    <JUNCTION>     My Pictures [C:\Users\Administrator\Pictures]
+16/01/2025  10:31    <JUNCTION>     My Videos [C:\Users\Administrator\Videos]
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\iCloudDrive
+
+27/02/2025  11:47    <DIR>          .
+02/02/2025  16:40    <DIR>          .Trash
+21/02/2025  00:26    <DIR>          About Me
+27/02/2025  11:47               394 desktop.ini
+19/01/2025  09:26    <DIR>          Downloads
+27/02/2025  11:47    <DIR>          iCloud~is~workflow~my~workflows
+               1 File(s)            394 bytes
+
+ Directory of C:\Users\Administrator\iCloudDrive\.Trash
+
+02/02/2025  16:40    <DIR>          .
+27/02/2025  11:47    <DIR>          ..
+09/02/2025  01:30          (72,517) Annop.png
+10/02/2025  10:46          (61,403) Generated Image 21.heic
+10/02/2025  10:51          (59,234) Generated Image 27.heic
+10/02/2025  10:51          (59,733) Generated Image 28.heic
+10/02/2025  10:54          (56,161) Generated Image 29.heic
+10/02/2025  10:56          (59,687) Generated Image 30.heic
+10/02/2025  19:16          (61,403) Generated Image 85.heic
+               7 File(s)        430,138 bytes
+
+ Directory of C:\Users\Administrator\iCloudDrive\About Me
+
+21/02/2025  00:26    <DIR>          .
+27/02/2025  11:47    <DIR>          ..
+21/02/2025  00:26    <DIR>          Annop
+20/02/2025  23:32    <DIR>          Next Chapter
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\iCloudDrive\About Me\Annop
+
+21/02/2025  00:26    <DIR>          .
+21/02/2025  00:26    <DIR>          ..
+26/09/2023  14:53       (1,601,133) 26-09-2023_ID-196.jpg
+26/09/2023  14:53       (4,406,617) 26-09-2023_ID-197.JPG
+22/11/2021  13:43           319,844 AED6DA4D-0204-42DD-8FA3-7E088B36C7C0.JPG
+21/02/2025  00:26    <DIR>          Animate
+20/02/2021  17:58           887,163 IMG_0070.HEIC
+25/06/2021  19:10       (2,864,095) IMG_0106.JPG
+11/07/2021  11:51       (2,810,171) IMG_0310.JPG
+07/08/2021  17:40       (2,484,238) IMG_0739.JPG
+12/09/2021  17:52           525,096 IMG_1272.JPG
+09/04/2020  23:16           722,681 IMG_1737 2.HEIC
+09/04/2020  23:16           722,681 IMG_1737.HEIC
+13/11/2021  10:19       (1,211,438) IMG_2063.HEIC
+13/11/2021  10:27       (1,470,432) IMG_2067.HEIC
+26/11/2021  09:36       (1,850,525) IMG_2309.HEIC
+26/11/2021  09:40       (1,368,872) IMG_2313.HEIC
+03/07/2020  16:38       (1,102,070) IMG_2612.HEIC
+03/07/2020  20:22           890,341 IMG_2620.HEIC
+03/07/2020  23:36       (1,262,186) IMG_2624.HEIC
+08/07/2020  17:08           977,671 IMG_2680.HEIC
+30/12/2021  20:14       (1,068,548) IMG_3003.HEIC
+30/12/2021  20:19           936,422 IMG_3005.HEIC
+25/07/2020  12:56       (1,175,373) IMG_3049.JPG
+25/07/2020  14:40       (1,551,123) IMG_3060.HEIC
+02/01/2022  15:39       (1,359,196) IMG_3062.HEIC
+21/01/2022  21:00           354,733 IMG_3344.JPG
+21/01/2022  21:33       (1,054,371) IMG_3350.HEIC
+29/01/2022  10:31       (1,860,068) IMG_3470.HEIC
+02/03/2022  20:18       (1,107,890) IMG_3673.HEIC
+19/12/2020  15:05       (2,371,857) IMG_4403.HEIC
+28/06/2022  16:17           391,948 IMG_4820.JPG
+19/07/2022  15:48           451,318 IMG_4944.JPG
+27/10/2020  17:47       (1,095,553) IMG_4951.HEIC
+20/11/2020  21:08       (1,125,853) IMG_5421.HEIC
+31/12/2020  22:34           792,961 IMG_6394.HEIC
+01/01/2021  14:30            91,314 IMG_6413.JPG
+28/02/2023  20:49           893,599 IMG_6459.HEIC
+10/01/2021  19:14       (3,083,097) IMG_6694.JPG
+28/01/2021  16:29       (1,612,050) IMG_6941.JPG
+20/05/2023  16:13           338,353 IMG_6957.JPG
+16/03/2021  22:56       (1,206,724) IMG_8327.JPG
+24/03/2021  23:36           450,157 IMG_8413.JPG
+15/04/2021  23:01           858,359 IMG_8732.HEIC
+16/11/2019  05:33           358,853 line_1573856859390_Original.jpg
+              42 File(s)     53,066,974 bytes
+
+ Directory of C:\Users\Administrator\iCloudDrive\About Me\Annop\Animate
+
+21/02/2025  00:26    <DIR>          .
+21/02/2025  00:26    <DIR>          ..
+09/02/2025  23:00            50,489 Generated Image 10.heic
+09/02/2025  23:01            64,281 Generated Image 11.heic
+09/02/2025  23:01            54,194 Generated Image 12.heic
+19/02/2025  10:38           562,778 Generated Image 13 (2).png
+09/02/2025  23:01            53,219 Generated Image 13.heic
+09/02/2025  23:01            64,281 Generated Image 14.heic
+09/02/2025  23:02            49,071 Generated Image 15.heic
+09/02/2025  23:08            61,832 Generated Image 16.heic
+19/02/2025  10:38           609,052 Generated Image 17 (2).png
+09/02/2025  23:08            62,481 Generated Image 17.heic
+09/02/2025  23:08            62,876 Generated Image 18.heic
+10/02/2025  10:46            67,560 Generated Image 19.heic
+09/02/2025  22:55            47,289 Generated Image 2.heic
+10/02/2025  10:46            59,881 Generated Image 20.heic
+10/02/2025  10:46            57,291 Generated Image 22.heic
+10/02/2025  10:47            59,672 Generated Image 23.heic
+10/02/2025  10:47            62,309 Generated Image 24.heic
+10/02/2025  10:50            59,234 Generated Image 25.heic
+10/02/2025  10:50            59,733 Generated Image 26.heic
+19/02/2025  10:38           640,544 Generated Image 3 (2).png
+09/02/2025  22:58            62,184 Generated Image 3.heic
+10/02/2025  11:00            55,355 Generated Image 31.heic
+10/02/2025  11:02            52,696 Generated Image 32.heic
+10/02/2025  11:07            63,397 Generated Image 33.heic
+10/02/2025  11:08            53,383 Generated Image 34.heic
+10/02/2025  11:08            61,373 Generated Image 35.heic
+10/02/2025  11:09            63,178 Generated Image 36.heic
+10/02/2025  11:10            52,233 Generated Image 37.heic
+10/02/2025  11:10            61,803 Generated Image 38.heic
+10/02/2025  11:10            52,042 Generated Image 39.heic
+09/02/2025  22:59            61,832 Generated Image 4.heic
+10/02/2025  11:11            64,801 Generated Image 40.heic
+10/02/2025  11:12            47,590 Generated Image 41.heic
+10/02/2025  11:12            63,843 Generated Image 42.heic
+10/02/2025  11:12            63,364 Generated Image 43.heic
+10/02/2025  11:13            57,895 Generated Image 44.heic
+10/02/2025  11:15            56,610 Generated Image 45.heic
+10/02/2025  11:15            58,415 Generated Image 46.heic
+19/02/2025  10:38           558,527 Generated Image 46.png
+10/02/2025  11:15            53,521 Generated Image 47.heic
+10/02/2025  11:15            54,262 Generated Image 48.heic
+10/02/2025  11:16            52,974 Generated Image 49.heic
+09/02/2025  22:59            61,664 Generated Image 5.heic
+10/02/2025  11:16            58,242 Generated Image 50.heic
+10/02/2025  11:17            54,610 Generated Image 51.heic
+10/02/2025  11:17            69,043 Generated Image 52.heic
+10/02/2025  11:17            56,610 Generated Image 53.heic
+10/02/2025  11:18            61,904 Generated Image 54.heic
+10/02/2025  11:20            47,424 Generated Image 55.heic
+10/02/2025  11:20            68,742 Generated Image 56.heic
+10/02/2025  11:21            47,584 Generated Image 57.heic
+10/02/2025  11:24            52,928 Generated Image 58.heic
+10/02/2025  11:24            46,970 Generated Image 59.heic
+19/02/2025  10:38           403,483 Generated Image 59.png
+09/02/2025  22:59            59,687 Generated Image 6.heic
+10/02/2025  11:24            46,980 Generated Image 60.heic
+19/02/2025  10:38           414,191 Generated Image 60.png
+10/02/2025  11:25            44,290 Generated Image 61.heic
+10/02/2025  11:25            53,642 Generated Image 62.heic
+10/02/2025  11:26            54,241 Generated Image 63.heic
+10/02/2025  11:27            59,552 Generated Image 64.heic
+10/02/2025  11:28            55,329 Generated Image 65.heic
+10/02/2025  11:28            52,766 Generated Image 66.heic
+10/02/2025  11:29            58,413 Generated Image 67.heic
+10/02/2025  19:12            43,188 Generated Image 68.heic
+10/02/2025  19:12            56,368 Generated Image 69.heic
+09/02/2025  23:00            52,627 Generated Image 7.heic
+10/02/2025  19:12            49,857 Generated Image 70.heic
+10/02/2025  19:13            43,842 Generated Image 71.heic
+10/02/2025  19:13            47,016 Generated Image 72.heic
+10/02/2025  19:13            57,591 Generated Image 73.heic
+10/02/2025  19:13            45,256 Generated Image 74.heic
+10/02/2025  19:13            59,229 Generated Image 75.heic
+10/02/2025  19:14            59,611 Generated Image 76.heic
+10/02/2025  19:14            60,386 Generated Image 77.heic
+10/02/2025  19:14            58,662 Generated Image 78.heic
+10/02/2025  19:14            59,611 Generated Image 79.heic
+09/02/2025  23:00            63,578 Generated Image 8.heic
+10/02/2025  19:14            45,256 Generated Image 80.heic
+10/02/2025  19:15            47,329 Generated Image 81.heic
+11/02/2025  19:09           521,789 Generated Image 81.png
+10/02/2025  19:15            52,152 Generated Image 82.heic
+10/02/2025  19:15            48,163 Generated Image 83.heic
+10/02/2025  19:16            58,599 Generated Image 84.heic
+09/02/2025  23:00            64,281 Generated Image 9.heic
+09/02/2025  22:55            51,715 Generated Image.heic
+07/01/2025  19:04            72,517 IMG_2542.HEIC
+09/02/2025  01:34           785,003 IMG_2542.png
+              88 File(s)      9,011,266 bytes
+
+ Directory of C:\Users\Administrator\iCloudDrive\About Me\Next Chapter
+
+20/02/2025  23:32    <DIR>          .
+21/02/2025  00:26    <DIR>          ..
+20/02/2025  21:44           194,646 IMG_2940.JPG
+20/02/2025  23:33           244,372 IMG_2941.jpg
+20/02/2025  23:33           246,514 IMG_2942.jpg
+20/02/2025  23:33           186,080 IMG_2943.jpg
+21/02/2025  20:07           159,924 IMG_2945.JPG
+25/02/2025  18:32           273,508 [LINE] Chat with Klear Zilla.txt
+               6 File(s)      1,305,044 bytes
+
+ Directory of C:\Users\Administrator\iCloudDrive\Downloads
+
+19/01/2025  09:26    <DIR>          .
+27/02/2025  11:47    <DIR>          ..
+10/01/2025  12:35         1,874,677 Etailligence_Ebook.pdf
+10/01/2025  20:38               206 github-recovery-codes 2.txt
+               2 File(s)      1,874,883 bytes
+
+ Directory of C:\Users\Administrator\iCloudDrive\iCloud~is~workflow~my~workflows
+
+27/02/2025  11:47    <DIR>          .
+27/02/2025  11:47    <DIR>          ..
+25/01/2025  00:40                 0 (1).WorkflowHiddenFile
+09/01/2025  14:25    <DIR>          .Trash
+27/02/2025  11:47               530 desktop.ini
+               2 File(s)            530 bytes
+
+ Directory of C:\Users\Administrator\iCloudDrive\iCloud~is~workflow~my~workflows\.Trash
+
+09/01/2025  14:25    <DIR>          .
+27/02/2025  11:47    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Junction_Backup
+
+27/02/2025  13:13    <JUNCTION>     My Music [C:\Users\Administrator\Music]
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings
+
+16/01/2025  10:31    <JUNCTION>     History [C:\Users\Administrator\AppData\Local\Microsoft\Windows\History]
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\Windows\INetCache
+
+16/01/2025  10:31    <JUNCTION>     Content.IE5 [C:\Users\Administrator\AppData\Local\Microsoft\Windows\INetCache\IE]
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\Windows\INetCache\Low
+
+16/01/2025  11:20    <JUNCTION>     Content.IE5 [C:\Users\Administrator\AppData\Local\Microsoft\Windows\INetCache\Low\IE]
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps
+
+16/01/2025  19:43                 0 ApplePhotoStreams-AppX.exe
+16/01/2025  19:43                 0 APSDaemon-AppX.exe
+16/01/2025  10:49                 0 bash.exe
+14/02/2025  09:02                 0 chatgpt.exe
+02/02/2025  14:29                 0 DevHome.EnvironmentVariablesApp.exe
+02/02/2025  14:29                 0 DevHome.HostsFileEditorApp.exe
+02/02/2025  14:29                 0 DevHome.RegistryPreviewApp.exe
+16/01/2025  19:43                 0 eReporter-AppX.exe
+19/02/2025  23:29                 0 GameBarElevatedFT_Alias.exe
+16/01/2025  10:50                 0 GetHelp.exe
+16/01/2025  19:43                 0 iCloudChrome.exe
+16/01/2025  19:43                 0 iCloudCKKS-AppX.exe
+16/01/2025  19:43                 0 iCloudDrive-AppX.exe
+16/01/2025  19:43                 0 iCloudFirefox.exe
+16/01/2025  19:43                 0 iCloudHome-AppX.exe
+16/01/2025  19:43                 0 iCloudPasswords-AppX.exe
+16/01/2025  19:43                 0 iCloudPasswordsExtensionHelper.exe
+16/01/2025  19:43                 0 iCloudPhotos-AppX.exe
+16/01/2025  19:43                 0 iCloudPhotoViewer-AppX.exe
+16/01/2025  19:43                 0 iCloudPrefs-AppX.exe
+16/01/2025  19:43                 0 iCloudServices-AppX.exe
+16/01/2025  10:50                 0 lenovoutility.exe
+20/02/2025  00:35                 0 MediaPlayer.exe
+16/01/2025  10:31                 0 MicrosoftWindows.DesktopStickerEditorCentennial.exe
+16/01/2025  10:48                 0 ms-teams.exe
+16/01/2025  10:48                 0 ms-teamsupdate.exe
+16/01/2025  10:48                 0 ms-teams_autostarter.exe
+12/02/2025  09:55                 0 notepad.exe
+11/02/2025  15:25                 0 olk.exe
+08/02/2025  00:32                 0 PAD.BrowserNativeMessageHost.exe
+08/02/2025  00:32                 0 PAD.ChildSession.Service.Host.exe
+22/02/2025  14:50                 0 python.exe
+22/02/2025  14:50                 0 python3.exe
+21/02/2025  10:43                 0 SnippingTool.exe
+24/02/2025  01:49                 0 Spotify.exe
+22/02/2025  14:50                 0 WindowsPackageManagerServer.exe
+22/02/2025  14:50                 0 winget.exe
+16/01/2025  10:49                 0 wsl.exe
+16/01/2025  10:49                 0 wslconfig.exe
+06/02/2025  14:25                 0 wt.exe
+19/02/2025  23:30                 0 XboxPcAppAdminServer.exe
+19/02/2025  23:30                 0 XboxPcAppCE.exe
+              42 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\AppleInc.iCloud_nzyj5cx40ttqa
+
+16/01/2025  19:43                 0 ApplePhotoStreams-AppX.exe
+16/01/2025  19:43                 0 APSDaemon-AppX.exe
+16/01/2025  19:43                 0 eReporter-AppX.exe
+16/01/2025  19:43                 0 iCloudChrome.exe
+16/01/2025  19:43                 0 iCloudCKKS-AppX.exe
+16/01/2025  19:43                 0 iCloudDrive-AppX.exe
+16/01/2025  19:43                 0 iCloudFirefox.exe
+16/01/2025  19:43                 0 iCloudHome-AppX.exe
+16/01/2025  19:43                 0 iCloudPasswords-AppX.exe
+16/01/2025  19:43                 0 iCloudPasswordsExtensionHelper.exe
+16/01/2025  19:43                 0 iCloudPhotos-AppX.exe
+16/01/2025  19:43                 0 iCloudPhotoViewer-AppX.exe
+16/01/2025  19:43                 0 iCloudPrefs-AppX.exe
+16/01/2025  19:43                 0 iCloudServices-AppX.exe
+              14 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\E0469640.LenovoUtility_5grkq8ppsgwt4
+
+16/01/2025  10:50                 0 lenovoutility.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
+
+22/02/2025  14:50                 0 python.exe
+22/02/2025  14:50                 0 python3.exe
+22/02/2025  14:50                 0 WindowsPackageManagerServer.exe
+22/02/2025  14:50                 0 winget.exe
+               4 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\Microsoft.GamingApp_8wekyb3d8bbwe
+
+19/02/2025  23:30                 0 XboxPcAppAdminServer.exe
+19/02/2025  23:30                 0 XboxPcAppCE.exe
+               2 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\Microsoft.GetHelp_8wekyb3d8bbwe
+
+16/01/2025  10:50                 0 GetHelp.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\Microsoft.OutlookForWindows_8wekyb3d8bbwe
+
+11/02/2025  15:25                 0 olk.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe
+
+08/02/2025  00:32                 0 PAD.BrowserNativeMessageHost.exe
+08/02/2025  00:32                 0 PAD.ChildSession.Service.Host.exe
+               2 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\Microsoft.ScreenSketch_8wekyb3d8bbwe
+
+21/02/2025  10:43                 0 SnippingTool.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\Microsoft.Windows.DevHome_8wekyb3d8bbwe
+
+02/02/2025  14:29                 0 DevHome.EnvironmentVariablesApp.exe
+02/02/2025  14:29                 0 DevHome.HostsFileEditorApp.exe
+02/02/2025  14:29                 0 DevHome.RegistryPreviewApp.exe
+               3 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\Microsoft.WindowsNotepad_8wekyb3d8bbwe
+
+12/02/2025  09:55                 0 notepad.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\Microsoft.WindowsTerminal_8wekyb3d8bbwe
+
+06/02/2025  14:25                 0 wt.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe
+
+19/02/2025  23:29                 0 GameBarElevatedFT_Alias.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\Microsoft.ZuneMusic_8wekyb3d8bbwe
+
+20/02/2025  00:35                 0 MediaPlayer.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe
+
+16/01/2025  10:49                 0 bash.exe
+16/01/2025  10:49                 0 wsl.exe
+16/01/2025  10:49                 0 wslconfig.exe
+               3 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy
+
+16/01/2025  10:31                 0 MicrosoftWindows.DesktopStickerEditorCentennial.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\MSTeams_8wekyb3d8bbwe
+
+16/01/2025  10:48                 0 ms-teams.exe
+16/01/2025  10:48                 0 ms-teamsupdate.exe
+16/01/2025  10:48                 0 ms-teams_autostarter.exe
+               3 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\OpenAI.ChatGPT-Desktop_2p2nqsd0c76g0
+
+14/02/2025  09:02                 0 chatgpt.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WindowsApps\SpotifyAB.SpotifyMusic_zpdnekdrzrea0
+
+24/02/2025  01:49                 0 Spotify.exe
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\Local Settings\Microsoft\WinGet\Links
+
+19/01/2025  04:06    <SYMLINK>      fnm.exe [C:\Users\Administrator\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe\fnm.exe]
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\My Documents
+
+16/01/2025  10:31    <JUNCTION>     My Pictures [C:\Users\Administrator\Pictures]
+16/01/2025  10:31    <JUNCTION>     My Videos [C:\Users\Administrator\Videos]
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\OneDrive
+
+27/02/2025  13:11    <DIR>          .
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\OneDrive\.tmp.driveupload
+
+27/02/2025  13:11    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\OneDrive\Desktop
+
+27/02/2025  13:11    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Administrator\OneDrive\Pictures
+
+27/02/2025  13:11    <DIR>          ..
+               0 File(s)              0 bytes
+
+     Total Files Listed:
+             318 File(s)     65,689,229 bytes
+              52 Dir(s)  819,351,072,768 bytes free

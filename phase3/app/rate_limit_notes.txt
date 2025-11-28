@@ -1,9 +1,0 @@
-# app/rate_limit_notes.txt
-Use SlowAPI with Redis for production-grade rate limiting.
-Example minimal integration:
-  from slowapi import Limiter
-  from slowapi.util import get_remote_address
-  limiter = Limiter(key_func=get_remote_address, default_limits=['60/minute'])
-  app.state.limiter = limiter
-  app.add_middleware(SlowAPIMiddleware)
-For Lite deployment, enforcing nginx limit_req is acceptable and simpler.

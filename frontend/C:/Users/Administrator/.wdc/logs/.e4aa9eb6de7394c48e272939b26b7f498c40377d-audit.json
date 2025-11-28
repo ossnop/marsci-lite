@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Administrator\\.wdc\\logs\\.e4aa9eb6de7394c48e272939b26b7f498c40377d-audit.json",
+    "files": [
+        {
+            "date": 1764275957803,
+            "name": "C:\\Users\\Administrator\\.wdc\\logs\\pipe.log.2025-11-Fr_03_",
+            "hash": "806d0d55bd63bd4f803b95cb236209f0"
+        }
+    ]
+}
